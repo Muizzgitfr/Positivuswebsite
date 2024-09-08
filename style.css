@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-right: 100px;
+
+}
+
+.navbar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav-list li a:hover {
+    color: #00A859;
+}
+
+.quote-btn {
+    padding: 10px 20px;
+    background-color: #00A859;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.quote-btn:hover {
+    background-color: #007a40;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #f0f8ff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #444;
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+/* Partner Logos Section */
+.partner-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+    background-color: white;
+    border-top: 2px solid #ddd;
+}
+
+.partner-logos img {
+    width: 100px;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+.partner-logos img:hover {
+    opacity: 1;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .navbar {
+        margin-top: 20px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .partner-logos img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .partner-logos img {
+        width: 60px;
+    }
+}
+.servi{
+    justify-content: center;
+    margin-right: 1000px;
+    padding-left: 500px;
+
+}
+.servi2{
+    justify-content: center;
+    margin-right: 1000px;
+    padding-left: 500px;
+}
